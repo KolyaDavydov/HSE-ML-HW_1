@@ -61,12 +61,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Публикация на Streamlit Community Cloud:
+Публикация на Streamlit Community Cloud осуществлена:
 
-1. Зафиксировать файлы `app.py`, `hw1_model.pickle`, `requirements.txt`, `runtime.txt` в GitHub-репозитории (pickle ≈0.5 МБ, Git LFS не нужен).
-2. Зайти на https://streamlit.io/cloud через GitHub, нажать **New app**.
-3. Указать репозиторий, ветку `main` и main file path `app.py`.
-4. Нажать **Deploy**; Streamlit прочитает `requirements.txt` и `runtime.txt` (Python 3.12).
-5. После деплоя открыть ссылку и проверить вкладки «Предсказание», «EDA», «Веса модели».
-
-Ссылку на опубликованное приложение следует добавить сюда после деплоя.
+https://hse-ml-hw1-f3ewhrykjh9dwb5ywj4kx7.streamlit.app/
